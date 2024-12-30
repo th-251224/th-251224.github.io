@@ -87,7 +87,7 @@ function detailTool2(){
         {nametodo: 'Luyện Thi 1',
             title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
             number: '1',
-            linktodo: 'Lv2/Lv2_LuyenThi1/index.html'
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi1/index.html'
         }
     ];
     htmlListForm = "";   
