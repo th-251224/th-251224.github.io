@@ -42,6 +42,54 @@ function detailTool1(){
             title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
             number: '1',
             linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap1/index.html'
+        },
+         {
+            nametodo: 'Luyện Tập 2',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '2',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap2/index.html'
+        },
+        
+         {
+            nametodo: 'Luyện Tập 3',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '3',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap3/index.html'
+        },
+        
+         {
+            nametodo: 'Luyện Tập 4',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '4',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap4/index.html'
+        },
+        
+         {
+            nametodo: 'Luyện Tập 5',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '5',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap5/index.html'
+        },
+        
+         {
+            nametodo: 'Luyện Tập 6',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '6',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap6/index.html'
+        },
+        
+         {
+            nametodo: 'Luyện Tập 7',
+            title: '<span style="color:blue;\">Chủ đề 2: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '7',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap1/index.html'
+        },
+        
+         {
+            nametodo: 'Luyện Tập 8',
+            title: '<span style="color:blue;\">Chủ đề 2: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '8',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap8/index.html'
         }
     ];
     htmlListForm = "";   
@@ -84,10 +132,53 @@ function detailTool1(){
 function detailTool2(){
     //Need add data for LuyenThi
     var data = [
-        {nametodo: 'Luyện Thi 1',
+        {
+            nametodo: 'Luyện Thi 1',
             title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
             number: '1',
             linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi1/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 2',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '2',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi2/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 3',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '3',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi3/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 4',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '4',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi4/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 5',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '5',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi5/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 6',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '6',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi6/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 7',
+            title: '<span style="color:blue;\">Chủ đề 2: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '7',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi7/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 8',
+            title: '<span style="color:blue;\">Chủ đề 2: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 20.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '8',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi8/index.html'
         }
     ];
     htmlListForm = "";   
