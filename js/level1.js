@@ -103,23 +103,23 @@ function detailTool2(){
     //Need add data for LuyenTap
     var data = [
         {nametodo: 'Luyện Thi 1',
-            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
             number: '1',
             linktodo: 'Lv1/LuyenThi/Lv1_LuyenThi1/index.html'
         },
         {nametodo: 'Luyện Thi 2',
-            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
             number: '2',
             linktodo: 'Lv1/LuyenThi/Lv1_LuyenThi2/index.html'
         },
         {nametodo: 'Luyện Thi 3',
-            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 22.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 22.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
             number: '3',
             linktodo: 'Lv1/LuyenThi/Lv1_LuyenThi3/index.html'
         },
         {
             nametodo: 'Luyện Thi 4',
-            title: '<span style="color:blue;\">Chủ đề 2: Quản Lí Thông Tin</span><ul><li>Số câu hỏi: 19.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            title: '<span style="color:blue;\">Chủ đề 2: Quản Lí Thông Tin</span><ul><li>Số câu hỏi: 19.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
             number: '4',
             linktodo: 'Lv1/LuyenThi/Lv1_LuyenThi4/index.html'
         }
