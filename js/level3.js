@@ -110,31 +110,31 @@ function detailTool2(){
     var data = [
         {
             nametodo: 'Luyện Thi 1',
-            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 19.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 19.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
             number: '1',
             linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi1/index.html'
         },
         {
             nametodo: 'Luyện Thi 2',
-            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 20.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 20.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
             number: '2',
             linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi2/index.html'
         },
         {
             nametodo: 'Luyện Thi 3',
-            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 17.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 17.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
             number: '3',
             linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi3/index.html'
         },
         {
             nametodo: 'Luyện Thi 4',
-            title: '<span style="color:blue;\">Chủ đề 2: Công Dân Số</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            title: '<span style="color:blue;\">Chủ đề 2: Công Dân Số</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
             number: '4',
             linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi4/index.html'
         },
         {
             nametodo: 'Luyện Thi 5',
-            title: '<span style="color:blue;\">Chủ đề 2: Công Dân Số</span><ul><li>Số câu hỏi: 18.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            title: '<span style="color:blue;\">Chủ đề 2: Công Dân Số</span><ul><li>Số câu hỏi: 18.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
             number: '5',
             linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi5/index.html'
         }
