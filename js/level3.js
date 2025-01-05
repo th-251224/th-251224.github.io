@@ -65,7 +65,7 @@ function detailTool1(){
             nametodo: 'Luyện Tập 5',
             title: '<span style="color:blue;\">Chủ đề 2: Công Dân Số</span><ul><li>Số câu hỏi: 18.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
             number: '5',
-            linktodo: 'Lv3/LuyenTap/Lv3_LuyenTap1/index.html'
+            linktodo: 'Lv3/LuyenTap/Lv3_LuyenTap5/index.html'
         }
     ];
     htmlListForm = "";   
