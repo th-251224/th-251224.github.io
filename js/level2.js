@@ -82,7 +82,7 @@ function detailTool1(){
             nametodo: 'Luyện Tập 7',
             title: '<span style="color:blue;\">Chủ đề 2: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
             number: '7',
-            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap1/index.html'
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap7/index.html'
         },
         
          {
