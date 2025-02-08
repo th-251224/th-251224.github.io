@@ -43,53 +43,107 @@ function detailTool1(){
             number: '1',
             linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap1/index.html'
         },
-         {
+        {
             nametodo: 'Luyện Tập 2',
             title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
             number: '2',
             linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap2/index.html'
         },
-        
-         {
+        {
             nametodo: 'Luyện Tập 3',
             title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
             number: '3',
             linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap3/index.html'
         },
-        
-         {
+        {
             nametodo: 'Luyện Tập 4',
             title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
             number: '4',
             linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap4/index.html'
         },
-        
-         {
+        {
             nametodo: 'Luyện Tập 5',
             title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
             number: '5',
             linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap5/index.html'
         },
-        
-         {
+        {
             nametodo: 'Luyện Tập 6',
             title: '<span style="color:blue;\">Chủ đề 1: Căn Bản Về Công Nghệ</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
             number: '6',
             linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap6/index.html'
         },
-        
-         {
+        {
             nametodo: 'Luyện Tập 7',
             title: '<span style="color:blue;\">Chủ đề 2: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
             number: '7',
             linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap7/index.html'
         },
-        
-         {
+        {
             nametodo: 'Luyện Tập 8',
             title: '<span style="color:blue;\">Chủ đề 2: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
             number: '8',
             linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap8/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 9',
+            title: '<span style="color:blue;\">Chủ đề 3: Công Dân Số</span><ul><li>Số câu hỏi: 22.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '9',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap9/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 10',
+            title: '<span style="color:blue;\">Chủ đề 4: Quản Lí Thông Tin</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '10',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap10/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 11',
+            title: '<span style="color:blue;\">Chủ đề 4: Quản Lí Thông Tin</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '11',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap11/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 12',
+            title: '<span style="color:blue;\">Chủ đề 5: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '12',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap12/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 13',
+            title: '<span style="color:blue;\">Chủ đề 5: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '13',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap13/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 14',
+            title: '<span style="color:blue;\">Chủ đề 5: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 14.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '14',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap14/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 15',
+            title: '<span style="color:blue;\">Chủ đề 5: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 14.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '15',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap15/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 16',
+            title: '<span style="color:blue;\">Chủ đề 6: Cộng Tác</span><ul><li>Số câu hỏi: 20.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '16',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap16/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 17',
+            title: '<span style="color:blue;\">Chủ đề 7: An Toàn Và Bảo Mật</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '17',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap17/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 18',
+            title: '<span style="color:blue;\">Chủ đề 7: An Toàn Và Bảo Mật</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '18',
+            linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap18/index.html'
         }
     ];
     htmlListForm = "";   
@@ -179,6 +233,66 @@ function detailTool2(){
             title: '<span style="color:blue;\">Chủ đề 2: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 20.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
             number: '8',
             linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi8/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 9',
+            title: '<span style="color:blue;\">Chủ đề 3: Công Dân Số</span><ul><li>Số câu hỏi: 22.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '9',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi9/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 10',
+            title: '<span style="color:blue;\">Chủ đề 4: Quản Lí Thông Tin</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '10',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi10/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 11',
+            title: '<span style="color:blue;\">Chủ đề 4: Quản Lí Thông Tin</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '11',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi11/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 12',
+            title: '<span style="color:blue;\">Chủ đề 5: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '12',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi12/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 13',
+            title: '<span style="color:blue;\">Chủ đề 5: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 15.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '13',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi13/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 14',
+            title: '<span style="color:blue;\">Chủ đề 5: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 14.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '14',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi14/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 15',
+            title: '<span style="color:blue;\">Chủ đề 5: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 14.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '15',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi15/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 16',
+            title: '<span style="color:blue;\">Chủ đề 6: Cộng Tác</span><ul><li>Số câu hỏi: 20.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '16',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi16/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 17',
+            title: '<span style="color:blue;\">Chủ đề 7: An Toàn Và Bảo Mật</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '17',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi17/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 18',
+            title: '<span style="color:blue;\">Chủ đề 7: An Toàn Và Bảo Mật</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '18',
+            linktodo: 'Lv2/LuyenThi/Lv2_LuyenThi18/index.html'
         }
     ];
     htmlListForm = "";   
