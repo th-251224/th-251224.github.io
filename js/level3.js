@@ -66,6 +66,60 @@ function detailTool1(){
             title: '<span style="color:blue;\">Chủ đề 2: Công Dân Số</span><ul><li>Số câu hỏi: 18.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
             number: '5',
             linktodo: 'Lv3/LuyenTap/Lv3_LuyenTap5/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 6',
+            title: '<span style="color:blue;\">Chủ đề 3: Quản Lí Thông Tin</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '6',
+            linktodo: 'Lv3/LuyenTap/Lv3_LuyenTap6/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 7',
+            title: '<span style="color:blue;\">Chủ đề 3: Quản Lí Thông Tin</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '7',
+            linktodo: 'Lv3/LuyenTap/Lv3_LuyenTap7/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 8',
+            title: '<span style="color:blue;\">Chủ đề 4: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 20.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '8',
+            linktodo: 'Lv3/LuyenTap/Lv3_LuyenTap8/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 9',
+            title: '<span style="color:blue;\">Chủ đề 4: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 21.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '9',
+            linktodo: 'Lv3/LuyenTap/Lv3_LuyenTap9/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 10',
+            title: '<span style="color:blue;\">Chủ đề 4: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 21.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '10',
+            linktodo: 'Lv3/LuyenTap/Lv3_LuyenTap10/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 11',
+            title: '<span style="color:blue;\">Chủ đề 5: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 20.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '11',
+            linktodo: 'Lv3/LuyenTap/Lv3_LuyenTap11/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 12',
+            title: '<span style="color:blue;\">Chủ đề 5: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '12',
+            linktodo: 'Lv3/LuyenTap/Lv3_LuyenTap12/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 13',
+            title: '<span style="color:blue;\">Chủ đề 6: Cộng Tác</span><ul><li>Số câu hỏi: 20.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '13',
+            linktodo: 'Lv3/LuyenTap/Lv3_LuyenTap13/index.html'
+        },
+        {
+            nametodo: 'Luyện Tập 14',
+            title: '<span style="color:blue;\">Chủ đề 7: An Toàn Và Bảo Mật</span><ul><li>Số câu hỏi: 14.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            number: '14',
+            linktodo: 'Lv3/LuyenTap/Lv3_LuyenTap14/index.html'
         }
     ];
     htmlListForm = "";   
@@ -137,6 +191,60 @@ function detailTool2(){
             title: '<span style="color:blue;\">Chủ đề 2: Công Dân Số</span><ul><li>Số câu hỏi: 18.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
             number: '5',
             linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi5/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 6',
+            title: '<span style="color:blue;\">Chủ đề 3: Quản Lí Thông Tin</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '6',
+            linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi6/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 7',
+            title: '<span style="color:blue;\">Chủ đề 3: Quản Lí Thông Tin</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '7',
+            linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi7/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 8',
+            title: '<span style="color:blue;\">Chủ đề 4: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 20.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '8',
+            linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi8/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 9',
+            title: '<span style="color:blue;\">Chủ đề 4: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 21.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '9',
+            linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi9/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 10',
+            title: '<span style="color:blue;\">Chủ đề 4: Sáng Tạo Nội Dung</span><ul><li>Số câu hỏi: 21.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '10',
+            linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi10/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 11',
+            title: '<span style="color:blue;\">Chủ đề 5: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 20.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '11',
+            linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi11/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 12',
+            title: '<span style="color:blue;\">Chủ đề 5: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '12',
+            linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi12/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 13',
+            title: '<span style="color:blue;\">Chủ đề 6: Cộng Tác</span><ul><li>Số câu hỏi: 20.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '13',
+            linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi13/index.html'
+        },
+        {
+            nametodo: 'Luyện Thi 14',
+            title: '<span style="color:blue;\">Chủ đề 7: An Toàn Và Bảo Mật</span><ul><li>Số câu hỏi: 14.</li><li>Thời gian: 30 phút.</li><li>Điểm đạt: 900.</li></ul>',
+            number: '14',
+            linktodo: 'Lv3/LuyenThi/Lv3_LuyenThi14/index.html'
         }
     ];
     htmlListForm = "";   
