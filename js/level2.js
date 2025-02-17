@@ -81,7 +81,7 @@ function detailTool1(){
         },
         {
             nametodo: 'Luyện Tập 8',
-            title: '<span style="color:blue;\">Chủ đề 2: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 16.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
+            title: '<span style="color:blue;\">Chủ đề 2: Giao Tiếp Kĩ Thuật Số</span><ul><li>Số câu hỏi: 20.</li><li>Thời gian: 60 phút.</li><li>Điểm đạt: 1000.</li></ul>',
             number: '8',
             linktodo: 'Lv2/LuyenTap/Lv2_LuyenTap8/index.html'
         },
