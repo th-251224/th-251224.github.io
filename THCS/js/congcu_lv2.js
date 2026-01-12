@@ -230,7 +230,7 @@ function renderLuaChonCongCu(){
     htmlSelectTool = "<input type=\"radio\" id=\"s1\" name=\"se_tool\" value=\"s1\"> <span style=\"color:#5B46F8;\"><b><i>Luyện Tập</i></b></span>&emsp;&ensp;"
     //Change Here
                     + "<input style=\"display:none;\" type=\"radio\" id=\"s3\" name=\"se_tool\" value=\"s3\"> <span style=\"display:none;color:#F8466D;\"><b><i>Luyện Thi</i></b></span>&emsp;&ensp;"
-                    + "<input type=\"radio\" id=\"s2\" name=\"se_tool\" value=\"s2\"> <span style=\"color:#E63C1E;\"><b><i>Thi Thử</i></b></span><br/>"
+                    + "<input type=\"radio\" id=\"s2\" name=\"se_tool\" value=\"s2\"> <span style=\"color:#E63C1E;\"><b><i>Bài Đánh Giá</i></b></span><br/>"
                     + "<div><button class=\"btn-select-tool\" onclick=\"confirmRenderCongCu()\"><b>OK</b></button></div>";
                     
     document.getElementById("select-tool").innerHTML = htmlSelectTool;
@@ -258,7 +258,7 @@ function confirmRenderCongCu(){
         // Change Here
         // alert("Bạn hãy chọn \"Luyện Tập\" hoặc \"Luyện Thi\" nhé!");
         
-        alert("Bạn hãy chọn \"Luyện Tập\" hoặc \"Thi Thử\" nhé!");
+        alert("Bạn hãy chọn \"Luyện Tập\" hoặc \"Bài Đánh Giá\" nhé!");
     }
 }
 

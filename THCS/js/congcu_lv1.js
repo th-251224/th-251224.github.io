@@ -81,7 +81,7 @@ function renderNameUsr(){
 
    //Change Here - Option 3
    var htmlRenderDescriptionTool = 
-   "Bạn hãy chọn chế độ <b><i><span style=\"color: #5B46F8;\">Luyện Tập</span></i></b> hoặc <b><i><span style=\"color: #F8466D;\">Luyện Thi</span></i></b> hoặc <b><i><span style=\"color: #E63C1E;\">Thi Thử</span></i></b> để ôn luyện nhé!";
+   "Bạn hãy chọn chế độ <b><i><span style=\"color: #5B46F8;\">Luyện Tập</span></i></b> hoặc <b><i><span style=\"color: #E63C1E;\">Bài Đánh Giá</span></i></b> để ôn luyện nhé!";
    
    //Change Here - Option 1
    //"Bạn hãy chọn chế độ <b><i><span style=\"color: #5B46F8;\">Luyện Tập</span></i></b> hoặc <b><i><span style=\"color: #E63C1E;\">Thi Thử</span></i></b> để ôn luyện nhé!";
@@ -244,7 +244,7 @@ function renderLuaChonCongCu(){
     htmlSelectTool = "<input type=\"radio\" id=\"s1\" name=\"se_tool\" value=\"s1\"> <span style=\"color:#5B46F8;\"><b><i>Luyện Tập</i></b></span>&emsp;&ensp;"
     //Change Here - Option 2
                     + "<input style=\"display:none;\" type=\"radio\" id=\"s3\" name=\"se_tool\" value=\"s3\"> <span style=\"display:none;color:#F8466D;\"><b><i>Luyện Thi</i></b></span>&emsp;&ensp;"
-                    + "<input type=\"radio\" id=\"s2\" name=\"se_tool\" value=\"s2\"> <span style=\"color:#E63C1E;\"><b><i>Luyện Thi</i></b></span><br/>"
+                    + "<input type=\"radio\" id=\"s2\" name=\"se_tool\" value=\"s2\"> <span style=\"color:#E63C1E;\"><b><i>Bài Đánh Giá</i></b></span><br/>"
                     + "<div><button class=\"btn-select-tool\" onclick=\"confirmRenderCongCu()\"><b>OK</b></button></div>";
     //Option 1
                     //+ "<input style=\"display:none;\" type=\"radio\" id=\"s3\" name=\"se_tool\" value=\"s3\"> <span style=\"display:none;color:#F8466D;\"><b><i>Luyện Thi</i></b></span>&emsp;&ensp;"
