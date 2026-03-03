@@ -66,135 +66,56 @@
 		});
 		});
 	</script>
+
 	<script>
-
-document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-    return false;
-}, false);
-
-document.addEventListener('keydown', function(e) {
-
-    if (e.keyCode === 122) {
+(function() {
+        const blockActions = (e) => {
         e.preventDefault();
         return false;
+    };
+    
+    document.addEventListener('contextmenu', blockActions);
+    document.addEventListener('selectstart', blockActions);
+    document.addEventListener('copy', blockActions);
+    document.addEventListener('dragstart', e => { if (e.target.tagName === 'IMG') e.preventDefault(); });
+
+    document.addEventListener('keydown', function(e) {
+        const forbiddenKeys = [123, 85, 73, 83, 67, 74]; 
+        if (forbiddenKeys.includes(e.keyCode) && (e.ctrlKey || e.shiftKey || e.keyCode === 123)) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+    
+    function enterFullscreen() {
+        const el = document.documentElement;
+        const requestMethod = el.requestFullscreen || el.webkitRequestFullscreen || el.mozRequestFullScreen || el.msRequestFullscreen;
+        if (requestMethod) {
+            requestMethod.call(el).catch(err => console.log("Yêu cầu Fullscreen bị chặn"));
+        }
     }
 
-    if (e.keyCode === 123) {
-        e.preventDefault();
-        return false;
+    
+    document.addEventListener('click', function trigger() {
+        enterFullscreen();
+        document.removeEventListener('click', trigger);
+    }, { once: true });
+
+    
+    function checkFullscreen() {
+        const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement;
+        if (!isFullscreen) {
+            alert("Cảnh báo: Bạn phải ở chế độ Toàn màn hình để làm bài!");
+            location.reload(); 
+        }
     }
 
-    if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
-        e.preventDefault();
-        return false;
-    }
-
-    if (e.ctrlKey && e.shiftKey && e.keyCode === 67) {
-        e.preventDefault();
-        return false;
-    }
-
-    if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
-        e.preventDefault();
-        return false;
-    }
-
-    if (e.ctrlKey && e.keyCode === 85) {
-        e.preventDefault();
-        return false;
-    }
-
-    if (e.ctrlKey && e.keyCode === 83) {
-        e.preventDefault();
-        return false;
-    }
-}, false);
-
-document.addEventListener('dragstart', function(e) {
-    if (e.target.tagName === 'IMG') {
-        e.preventDefault();
-        return false;
-    }
-}, false);
-
-document.addEventListener('selectstart', function(e) {
-    e.preventDefault();
-    return false;
-}, false);
-
-document.addEventListener('copy', function(e) {
-    e.preventDefault();
-    return false;
-}, false);
-
-
-window.addEventListener('load', function() {
-    const images = document.getElementsByTagName('img');
-    for (let i = 0; i < images.length; i++) {
-        images[i].style.pointerEvents = 'none';
-        images[i].style.userSelect = 'none';
-        images[i].setAttribute('draggable', 'false');
-        images[i].oncontextmenu = function() { return false; };
-    }
-
-
-    requestFullscreen();
-});
-
-
-function requestFullscreen() {
-    const el = document.documentElement;
-    if (el.requestFullscreen) {
-        el.requestFullscreen();
-    } else if (el.webkitRequestFullscreen) {
-        el.webkitRequestFullscreen();
-    } else if (el.mozRequestFullScreen) {
-        el.mozRequestFullScreen();
-    } else if (el.msRequestFullscreen) {
-        el.msRequestFullscreen();
-    }
-}
-
-
-document.addEventListener('fullscreenchange', handleFullscreenChange);
-document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
-document.addEventListener('mozfullscreenchange', handleFullscreenChange);
-document.addEventListener('MSFullscreenChange', handleFullscreenChange);
-
-function handleFullscreenChange() {
-    const isFullscreen = document.fullscreenElement
-        || document.webkitFullscreenElement
-        || document.mozFullScreenElement
-        || document.msFullscreenElement;
-
-    if (!isFullscreen) {
-
-        setTimeout(function() {
-            location.reload();
-        }, 300);
-    }
-}
-
-
-const style = document.createElement('style');
-style.textContent = `
-    * {
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
-    img {
-        pointer-events: none !important;
-        -webkit-user-drag: none !important;
-        -khtml-user-drag: none !important;
-        -moz-user-drag: none !important;
-        -o-user-drag: none !important;
-        user-drag: none !important;
-    }
-`;
-document.head.appendChild(style);
+    ['fullscreenchange', 'webkitfullscreenchange', 'mozfullscreenchange', 'MSFullscreenChange'].forEach(evt => 
+        document.addEventListener(evt, checkFullscreen)
+    );
+})();
 </script>
+	
 </body>
 </html>
