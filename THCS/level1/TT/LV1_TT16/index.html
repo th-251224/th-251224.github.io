@@ -66,5 +66,55 @@
 		});
 		});
 	</script>
+	
+	<script>
+		(function() {
+				const blockActions = (e) => {
+				e.preventDefault();
+				return false;
+			};
+			
+			document.addEventListener('contextmenu', blockActions);
+			document.addEventListener('selectstart', blockActions);
+			document.addEventListener('copy', blockActions);
+			document.addEventListener('dragstart', e => { if (e.target.tagName === 'IMG') e.preventDefault(); });
+
+			document.addEventListener('keydown', function(e) {
+				const forbiddenKeys = [123, 85, 73, 83, 67, 74]; 
+				if (forbiddenKeys.includes(e.keyCode) && (e.ctrlKey || e.shiftKey || e.keyCode === 123)) {
+					e.preventDefault();
+					return false;
+				}
+			});
+
+			
+			function enterFullscreen() {
+				const el = document.documentElement;
+				const requestMethod = el.requestFullscreen || el.webkitRequestFullscreen || el.mozRequestFullScreen || el.msRequestFullscreen;
+				if (requestMethod) {
+					requestMethod.call(el).catch(err => console.log("Yêu cầu Fullscreen bị chặn"));
+				}
+			}
+
+			
+			document.addEventListener('click', function trigger() {
+				enterFullscreen();
+				document.removeEventListener('click', trigger);
+			}, { once: true });
+
+			
+			function checkFullscreen() {
+				const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement;
+				if (!isFullscreen) {
+					alert("Cảnh báo: Bạn phải ở chế độ Toàn màn hình để làm bài!");
+					location.reload(); 
+				}
+			}
+
+			['fullscreenchange', 'webkitfullscreenchange', 'mozfullscreenchange', 'MSFullscreenChange'].forEach(evt => 
+				document.addEventListener(evt, checkFullscreen)
+			);
+		})();
+	</script>
 </body>
 </html>
