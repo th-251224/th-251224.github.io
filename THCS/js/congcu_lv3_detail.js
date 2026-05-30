@@ -1,4 +1,4 @@
-let linkBackToLogInPage = "https://nguyentran-edu.ic3gs6.com";
+let linkBackToLogInPage = "https://www.ic3.info.vn";
 let linkBackToToolPage = "https://www.ic3.info.vn/THCS/IC3GS6LEVEL3.html";
 let data1 = [];
 let user1 = "";
