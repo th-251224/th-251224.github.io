@@ -69,12 +69,10 @@
 
 <script>
 (function() {
-    
     const blockActions = (e) => {
         e.preventDefault();
         return false;
-    };
-    
+    };    
     document.addEventListener('contextmenu', blockActions);
     document.addEventListener('selectstart', blockActions);
     document.addEventListener('copy', blockActions);
@@ -82,21 +80,17 @@
         if (e.target.tagName === 'IMG') e.preventDefault(); 
     });
 
-    
     document.addEventListener('keydown', function(e) {
-        
         if (e.key === 'Tab') {
             e.preventDefault();
             return false;
         }
-
         
         if (e.key === 'F12') {
             e.preventDefault();
             return false;
         }
         
-        // Chặn các phím C, S, U, I, J khi đi kèm Ctrl (Windows) hoặc Command (Mac)
         const forbiddenKeys = ['c', 's', 'u', 'i', 'j'];
         const isModifierPressed = e.ctrlKey || e.metaKey; 
         
@@ -105,7 +99,6 @@
             return false;
         }
     });
-
     
     function enterFullscreen() {
         const el = document.documentElement;
@@ -115,17 +108,15 @@
         }
     }
 
-    
     document.addEventListener('click', function trigger() {
         enterFullscreen();
         document.removeEventListener('click', trigger);
     }, { once: true });
 
-    // Kiểm tra nếu thoát toàn màn hình
     function checkFullscreen() {
         const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement;
         if (!isFullscreen) {
-            alert("Cảnh báo: Bạn phải ở chế độ Toàn màn hình để làm bài! Hệ thống sẽ tải lại trang.");
+            alert("Cảnh báo: Bạn phải ở chế độ Toàn màn hình để làm bài!");
             location.reload(); 
         }
     }
