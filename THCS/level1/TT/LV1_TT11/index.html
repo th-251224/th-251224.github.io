@@ -67,9 +67,10 @@
 		});
 	</script>
 
-	<script>
+<script>
 (function() {
-        const blockActions = (e) => {
+    
+    const blockActions = (e) => {
         e.preventDefault();
         return false;
     };
@@ -77,11 +78,29 @@
     document.addEventListener('contextmenu', blockActions);
     document.addEventListener('selectstart', blockActions);
     document.addEventListener('copy', blockActions);
-    document.addEventListener('dragstart', e => { if (e.target.tagName === 'IMG') e.preventDefault(); });
+    document.addEventListener('dragstart', e => { 
+        if (e.target.tagName === 'IMG') e.preventDefault(); 
+    });
 
+    
     document.addEventListener('keydown', function(e) {
-        const forbiddenKeys = [123, 85, 73, 83, 67, 74]; 
-        if (forbiddenKeys.includes(e.keyCode) && (e.ctrlKey || e.shiftKey || e.keyCode === 123)) {
+        
+        if (e.key === 'Tab') {
+            e.preventDefault();
+            return false;
+        }
+
+        
+        if (e.key === 'F12') {
+            e.preventDefault();
+            return false;
+        }
+        
+        // Chặn các phím C, S, U, I, J khi đi kèm Ctrl (Windows) hoặc Command (Mac)
+        const forbiddenKeys = ['c', 's', 'u', 'i', 'j'];
+        const isModifierPressed = e.ctrlKey || e.metaKey; 
+        
+        if (isModifierPressed && forbiddenKeys.includes(e.key.toLowerCase())) {
             e.preventDefault();
             return false;
         }
@@ -102,11 +121,11 @@
         document.removeEventListener('click', trigger);
     }, { once: true });
 
-    
+    // Kiểm tra nếu thoát toàn màn hình
     function checkFullscreen() {
         const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement;
         if (!isFullscreen) {
-            alert("Cảnh báo: Bạn phải ở chế độ Toàn màn hình để làm bài!");
+            alert("Cảnh báo: Bạn phải ở chế độ Toàn màn hình để làm bài! Hệ thống sẽ tải lại trang.");
             location.reload(); 
         }
     }
