@@ -1133,3 +1133,34 @@ span.psw {
 #main{
   padding: 10px;
 }
+
+/* Thiết kế cho hộp thông báo */
+#custom-toast {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #333; /* Màu nền mặc định */
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 16px;
+    position: fixed;
+    z-index: 9999; /* Đảm bảo luôn nằm trên cùng */
+    left: 50%;
+    bottom: 30px; /* Hiện ở cạnh dưới màn hình */
+    transform: translateX(-50%);
+    font-size: 16px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+    transition: visibility 0s, opacity 0.5s linear;
+    opacity: 0;
+}
+
+/* Class để hiển thị */
+#custom-toast.toast-show {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Màu cho thông báo thành công và thất bại */
+.toast-success { background-color: #4CAF50 !important; }
+.toast-error { background-color: #f44336 !important; }
+.toast-warning { background-color: #ff9800 !important; }
